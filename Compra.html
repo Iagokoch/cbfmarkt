@@ -8,40 +8,58 @@
     <link rel="stylesheet" href="/css/Compra.css">
 </head>
 <body>
-    <header class="navbar">
-        <input type="text" placeholder="Buscar..." class="search-bar">
-        <nav class="nav-buttons">
-            <button onclick="navigateTo('campeonatos')">
-                <li><a href="#" class="item_navbar"><i class="fa-solid fa-trophy"></i>&#160;Campeonatos</a></li>
-            </button>
-            <button onclick="navigateTo('transferencias')">
-                <li><a href="#" class="item_navbar"><i class="fa-solid fa-right-left"></i>&#160;Transferencias</a></li>
-            </button>
-            <button onclick="navigateTo('clubes')">
-                <li><a href="#" class="item_navbar"><i class="fa-solid fa-shirt"></i>&#160;Clubes</a></li>
-            </button>
-            <button onclick="navigateTo('valores')">
-                <li><a href="#" class="item_navbar"><i class="fa-solid fa-dollar-sign"></i>&#160;Valores de Mercado</a></li>
-            </button>
-            <button onclick="navigateTo('estatisticas')">
-                <li><a href="#" class="item_navbar"><i class="fa-solid fa-chart-simple"></i>&#160;Estatística</a></li>
-            </button>
-        </nav>
+    <header id="cabecalho">
+        <div class="header">
+            <div class="img_brasil">
+                <img src="/Assets/img/logo_brasil.png" width="40px" />
+            </div>
+            <div class="pesquisa">
+                <div class="img_lupa">
+                    <img src="/Assets/img/lupa.png" width="20px" />
+                </div>
+                <input id="pesquisa_header" type="text" />
+            </div>
+            <div class="icon_perfil">
+                <img src="./Assets/img/icon-perf.png" width="40px" />
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="menu_links">
+                    <a href="Pagina_Escolha.html">
+                        <img src="/Assets/img/medalha.png" width="15px"/>
+                        <p>Campeonatos</p>
+                    </a>
+                    <a href="">
+                        <img src="/Assets/img/setas.png" width="15px"/>
+                       <p>Transferencias</p>
+                    </a>
+                    <a href="">
+                        <img src="/Assets/img/camisa.png" width="15px"/>
+                        <p>Clubes</p>
+                    </a>
+                    <a href="">
+                        <img src="/Assets/img/cifra.png" width="15px"/>
+                        <p>Valores de mercado</p>
+                    </a>
+                </div>
+            </nav>
+        </div>
     </header>
     <div class="player-container">
         <div class="player-card">
             <div class="player-photo-container">
-                <img src="/img/dudu.jpg" alt="Foto do Jogador" class="player-photo" width="150" height="150">
+                <img src="/img/Caio_A.jpg" alt="Foto do Jogador" class="player-photo" width="150" height="150">
             </div>
             <div class="player-info">
-                <h1 class="player-name">Eduardo Pereira Rodrigues</h1>
-                <p class="player-position">Posição: Atacante</p>
-                <p class="player-value">Valor de Mercado: €50M</p>
-                <p class="player-value">Time: Palmeiras</p>
-                <p class="player-value">Idade: 32 anos</p>
+                <h1 class="player-name">Caio Alexandre</h1>
+                <p class="player-position">Posição: Meia</p>
+                <p class="player-value">Valor de Mercado: €10M</p>
+                <p class="player-value">Time: Fortaleza</p>
+                <p class="player-value">Idade: 25 anos</p>
             </div>
             <div class="player-bio">
-                <p>Dudu é conhecido não apenas por suas habilidades técnicas, mas também por sua dedicação e espírito de luta, características que o tornaram um ídolo para os torcedores do Palmeiras e um exemplo de profissionalismo no futebol.</p>
+                <p>Caio Alexandre Souza e Silva é um futebolista brasileiro que atua como volante. Atualmente joga pelo Bahia.</p>
             </div>
             <div class="buttons-container">
                 <button class="buy-button" onclick="comprarJogador()">Comprar</button>
