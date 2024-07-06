@@ -14,7 +14,7 @@
 .retangulo2{
     width: 60%;
     height: 100vh;
-    background: url(foto_pele.png);
+    background: url(/img/foto_pele.jfif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

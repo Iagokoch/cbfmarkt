@@ -1,3 +1,4 @@
+
 :root {
     --amarelo-bandeira: #DCB21E;
     --verde-bandeira: #3B9C62;
@@ -50,14 +51,6 @@ nav {
 .dropdown:hover .dropdown-menu{
     display:block;
     
-}
-
-.logo_time_chapecoense{
-display: flex; max-width: 40px; max-height: 40px; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px;"
-}
-
-.logo_time_coritiba, .logo_time_goias, .logo_time_ituano, .logo_time_guarani, .logo_time_mirassol, .logo_time_novorizontino, .logo_time_santos, .logo_time_vila_nova{
-display: flex; max-width: 40px; max-height: 40px; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px;"
 }
 
 .dropdown {
@@ -203,6 +196,8 @@ h2 {
 .info_campeonato {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 180px;
     margin-top: 5px;
@@ -401,16 +396,6 @@ h2 {
         display: none;
     }
 
-    .logo_time_chapecoense {
-        display: none;
-    }
-
-    .logo_time_coritiba, .logo_time_goias, .logo_time_ituano, .logo_time_guarani, .logo_time_mirassol, .logo_time_novorizontino, .logo_time_santos, .logo_time_vila_nova{
-        display: none;
-    }
-
-    
-
     .campeonato {
         display: flex;
         flex-direction: column;
@@ -530,9 +515,9 @@ h2 {
 
     .img_atual_campeao {
         position: absolute;
-        margin-top: -15px;
+        margin-top: -10px;
         margin-left: 5px;
-        width: 35px;
+        width: 40px;
     }
 
     .img_maior_campeao {
@@ -592,14 +577,6 @@ h2 {
     }
 
     .logo_time_vitoria {
-        display: none;
-    }
-
-    .logo_time_chapecoense {
-        display: none;
-    }
-
-    .logo_time_coritiba, .logo_time_goias, .logo_time_ituano, .logo_time_guarani, .logo_time_mirassol, .logo_time_novorizontino, .logo_time_santos, .logo_time_vila_nova{
         display: none;
     }
 
